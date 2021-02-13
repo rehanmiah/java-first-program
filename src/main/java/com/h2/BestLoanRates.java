@@ -6,6 +6,6 @@ public class BestLoanRates {
      var Scanner = new Scanner(System.in);
      System.out.println("Enter your name");
      var name = Scanner.nextLine();
-     System.out.println("hello" + name);
+     System.out.println("Hello" + name);
  }
 }
