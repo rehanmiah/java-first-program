@@ -8,7 +8,10 @@ public class BestLoanRates {
      System.out.println("Enter your name");
      var name = Scanner.nextLine();
      System.out.println("Hello "+ name);
-     final var bestRates = Map.of(1, 5.50f, 2, 3.45f, 3, 2.67f);
  }
-
+    public static final Map<Integer, Float> bestRates = Map.of(
+            1, 5.50f,
+            2, 3.45f,
+            3, 2.67f
+    );
 }
