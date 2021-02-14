@@ -18,6 +18,10 @@ public class SavingsCalculator {
     }
 
     private float sumOfDebits(){
-        return 0.0f;
+        float sum - 0.0f;
+        for(float debit: debits){
+            sum += debit;
+        }
+        return sum;
     }
 }
