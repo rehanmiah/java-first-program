@@ -9,7 +9,7 @@ public class BestLoanRates {
      var name = Scanner.nextLine();
      System.out.println("Hello "+ name);
  }
- public static float getRates(int[] args){
+ public static float getRates(int args){
      return 0.0f;
 
  }
