@@ -1,5 +1,6 @@
 package com.h2;
 import java.time.LocalDate;
+import java.time.YearMonth;
 public class SavingsCalculator {
     private float[] credits;
     private float[]  debits;
@@ -26,7 +27,10 @@ public class SavingsCalculator {
     }
 
     private static int remainingDaysInMonth(LocalDate date){
-        return -1;
+        YearMonth yearMonth = YearMonth.of(date.getYear(), date.getMonth());
+        var totalDaysInMonth = yearMonth.lengthOfMonth();
+        var remainingDays = date.getDayOfMonth() - totalDaysInMonth;
+        return remainingDays;
     }
 
 }
