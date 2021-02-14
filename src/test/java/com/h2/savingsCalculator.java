@@ -1,6 +1,6 @@
 package com.h2;
 
-public class savingsCalaculator {
+public class savingsCalculator {
     private static float credits(){
         return 0;
     };
