@@ -13,9 +13,7 @@ public class BestLoanRates {
      if (bestRates.containsKey(loanTermInYears)){
          return bestRates.get(loanTermInYears);
      }
-     else {
          return 0.0f;
-     }
  }
     public static final Map<Integer, Float> bestRates = Map.of(
             1, 5.50f,
