@@ -9,13 +9,13 @@ public class BestLoanRates {
      var name = Scanner.nextLine();
      System.out.println("Hello "+ name);
  }
-
  public static float getRates(int loanTermInYears){
-         if(bestRates.containskey(loanTermInYears)){
-             return bestRates.get(loanTermInYears);
-         }
+     if (bestRates.containsKey(loanTermInYears)){
+         return bestRates.get(loanTermInYears);
      }
-
+     else {
+         return 0.0f;
+     }
  }
     public static final Map<Integer, Float> bestRates = Map.of(
             1, 5.50f,
