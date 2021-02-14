@@ -9,7 +9,7 @@ public class SavingsCalculator {
         this.debits = debits;
     }
 
-    private sumOfCredits(float){
-        return 0.0f
+    private float sumOfCredits(){
+        return 0.0f;
     }
 }
