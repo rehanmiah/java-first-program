@@ -18,6 +18,6 @@ public class SavingsCalculator {
     }
 
     private float sumOfDebits(){
-        return 0.0f
+        return 0.0f;
     }
 }
